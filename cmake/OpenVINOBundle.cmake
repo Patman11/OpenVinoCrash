@@ -1,0 +1,25 @@
+set(CLCRASH_OPENVINO_RUNTIME_INSTALL_FILES
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_auto_batch_plugin$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_auto_plugin$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_c$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_gapi_preproc$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_hetero_plugin$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_intel_cpu_plugin$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_intel_gna_plugin$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_intel_gpu_plugin$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_ir_frontend$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_onnx_frontend$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/openvino_paddle_frontend$<$<CONFIG:Debug>:d>.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/gna.dll
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/plugins.xml
+	${OPEN_VINO_RUNTIME_PATH}/bin/intel64/$<$<CONFIG:Debug>:Debug>$<$<CONFIG:Release>:Release>$<$<CONFIG:RelWithDebInfo>:Release>/cache.json
+	${OPEN_VINO_RUNTIME_PATH}/3rdparty/tbb/bin/tbb.dll
+	${OPEN_VINO_RUNTIME_PATH}/3rdparty/tbb/bin/tbb_debug.dll
+	${OPEN_VINO_RUNTIME_PATH}/3rdparty/tbb/bin/tbb_preview.dll
+	${OPEN_VINO_RUNTIME_PATH}/3rdparty/tbb/bin/tbb_preview_debug.dll
+	${OPEN_VINO_RUNTIME_PATH}/3rdparty/tbb/bin/tbbbind.dll
+	${OPEN_VINO_RUNTIME_PATH}/3rdparty/tbb/bin/tbbbind_debug.dll
+	${OPEN_VINO_RUNTIME_PATH}/3rdparty/tbb/bin/tbbmalloc.dll
+	${OPEN_VINO_RUNTIME_PATH}/3rdparty/tbb/bin/tbbmalloc_debug.dll
+)
