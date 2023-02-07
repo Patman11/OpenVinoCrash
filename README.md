@@ -15,7 +15,7 @@ displayed using pure win32 API.
 
 The only external dependency is the OpenVINO build. The build system searches
 for it in the path defined in CMake cache or the environment variable:
-`CLCRASH_OPENVINO_RUNTIME_PATH`. The environtment variable needs to point to the
+`CLCRASH_OPENVINO_RUNTIME_PATH`. The environment variable needs to point to the
 "runtime" directory of an OpenVINO installation. This needs to be done in a clean
 build directory. Otherwise, CMake uses the usual `find_package()` paths.
 
